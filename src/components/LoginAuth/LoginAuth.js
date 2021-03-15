@@ -60,7 +60,7 @@ const LoginAuth = () => {
             <button onClick={handleSignInWithFacebook}>Sign in With Facebook</button>
             <br/>
             <GithubLogin></GithubLogin>
-            <h3>Email: {user.email}</h3>
+            <h3>User: {user.displayName}</h3>
             <img src={user.photoURL} alt="" />
             
 
